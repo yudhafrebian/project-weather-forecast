@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Weather Forecast</h1>
+  </header>
+  <div class="content">
+    <div class="navigation-bar">
+      <div class="search-field">
+        <input type="text" name="city-name" id="city-name" placeholder="Search weather forecast of your city">
+        <button onClick="searchWeather()">search</button>
+      </div>
+      <div id="loader" class="loader hidden"></div>
+    </div>
+    <div id="error-message" class="hidden"></div>
+    <div id="city-description" class="hidden"></div>
+    <div id="current-weather" class="hidden"></div>
+    <div id="weather-forecast" class="hidden"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
