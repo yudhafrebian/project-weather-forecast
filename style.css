@@ -63,6 +63,10 @@ body {
     margin: 30px 0;
   }
   
+  #forecast-description {
+    text-align: center;
+  }
+
   #weather-forecast {
     display: flex;
     flex-wrap: wrap;
